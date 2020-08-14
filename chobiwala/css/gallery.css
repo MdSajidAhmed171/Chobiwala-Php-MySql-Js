@@ -1,0 +1,21 @@
+.gallery{
+ /*  margin: 10px 50px; */
+ margin: 10px 20px;
+  display: inline-block;
+}
+.gallery img{
+  width: 300px;
+  padding: 5px;
+  /* filter: grayscale(50%); */
+  transition: ls;
+}
+.gallery img:hover{
+  transform: scale(1.1);
+}
+h1{
+  text-align: center;
+  margin: 0 15%;
+  color: white;
+  padding: 15px;
+  background-color: #28a745; 
+}

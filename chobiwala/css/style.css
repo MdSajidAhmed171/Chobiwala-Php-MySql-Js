@@ -1,0 +1,118 @@
+*{
+	font-family: 'Dosis', sans-serif;
+}
+@font-face {
+  font-family: 'Bellota-LightItalic';
+  src: url('../fonts/Bellota-LightItalic.otf');
+}
+@font-face {
+  font-family: 'Bellota-BoldItalic';
+  src: url('../fonts/Bellota-BoldItalic.otf');
+}
+@font-face {
+  font-family: 'Bellota-Regular';
+  src: url('../fonts/Bellota-Regular.otf');
+}
+
+ html, body {
+   position: relative;
+   height: 100%;
+ }
+
+body{
+
+	
+}
+/*NavBar part start */
+.nav-link {
+  font-family: 'Bellota-Regular', sans-serif ;
+
+}
+.nav-color:hover{
+	color: white !important;
+	display: inline-block !important;
+	background: #28a745 !important;
+	border-radius: 5px;
+	transition: 0.6s;
+}
+.navbar-brand {
+  font-family: 'Bellota-LightItalic', sans-serif ;
+  color: white;
+  text-shadow: #73B6E2 1px 1px 0px;
+  font-size: 200%;
+}
+/* Navbar part end */
+
+/*offer */
+.offers{
+  width: 100%;
+  background-image: url("../image/offer2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1100px 200px;
+  height: 200px;
+  left: 180px;
+}
+.offer-flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.offer-content{
+  background-color: rgba(255,255,255,0.9);
+  width: 40%;
+  margin: 0 20px;
+  position: relative;
+  top: 0px;
+  left: 180px;
+  box-shadow: 8px 10px 30px rgba(0,0,0,0.1);
+}
+.inner-border{
+  border: 1px solid #000;
+  margin: 5px;
+  line-height: 1;
+  text-align: center;
+}
+.inner-border h3{
+  font-size: 15px;
+  margin: 10px 0;
+}
+.inner-border h2{
+  font-size: 30px;
+  margin: 15px 0;
+}
+.inner-border a{
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 5px 5px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  font-style : italic;
+}
+.inner-border p{
+  color: #8e4d07;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin: 30px 0;
+}
+/*Offer part end*/
+
+/* Footer part start */
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #28a745;
+   color: white;
+   text-align: center;
+}
+/* Footer part end */
+h1{
+  text-align: center;
+  color: white;
+  padding: 15px;
+  background-color: #28a745; 
+}

@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Bellota-Regular';
+  src: url('../fonts/Bellota-Regular.otf');
+}
+
+body {
+  margin: 0;
+  font-family: 'Bellota-Regular', sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  font-family: 'Bellota-Regular', sans-serif;
+}
+ 
+.sidebar a:hover:not(.active) {
+  background-color: #4CAF50;
+  color: white;
+}
+.sidebar li {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+.sidebar .picture{ 
+  display: inline-block;
+  margin: 0 30px;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.sidebar .picture img{
+  width: 100%;
+  height: 100%;
+
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
