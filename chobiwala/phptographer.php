@@ -7,7 +7,7 @@
  * \file            phptographer.php
  *
  * \author          copyright 2020 <br>
- *                  Farzana Jahan <br>
+ *                  Md. Sajid Ahmed <br>
  *
  * \date            First Step: 15-03-2020 <br>
  *
