@@ -13,10 +13,10 @@
  *
  * \b CHANGE \b HISTORY: <br>
  *
- *   <b>- Farzana Jahan. / 15-03-2020</b>   
+ *   <b>- Md Sajid Ahmed. / 15-03-2020</b>   
  *           - design about.
  *
- *   <b>- Farzana Jahan. / 18-03-2020</b>   
+ *   <b>- Md Sajid Ahmed. / 18-03-2020</b>   
  *           - documentation.
 
  ***************************************************************************
